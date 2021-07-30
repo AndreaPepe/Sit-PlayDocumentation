@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Storyboards - Sit&amp;Play</title>
+
+<link rel="stylesheet" href="css/basicStyle.css">
+
+<script>
+function loadUser(){
+	var image = document.getElementById("image");
+	image.src = "img/User Page.png";
+}
+function loadCreate(){
+	var image = document.getElementById("image");
+	image.src = "img/Create Table.png";
+}
+
+function loadTournaments(){
+	var image = document.getElementById("image");
+	image.src = "img/Join Tournament.png";
+}
+
+function loadNotifications(){
+	var image = document.getElementById("image");
+	image.src = "img/Notifications.png";
+}
+</script>
+
+</head>
+
+	<header>
+		<div class="left_area">
+			<h3>Sit<span>&amp;</span>Play</h3>
+		</div>
+	</header>
+	
+	<div class="container">
+		<div class="sidebar">
+			<a onclick="loadUser()"><span>User</span></a>
+			<a onclick="loadCreate()"><span>Tables</span></a>
+			<a onclick="loadTournaments()"><span>Tournaments</span></a>
+			<a onclick="loadNotifications()"><span>Notifications</span></a>
+		</div>
+	
+		<div id="innerPage" class="innerPage">
+			<img id="image" src="img/User Page.png" alt="single storyboard" class="image">
+		</div>
+	</div>
+
+</html>
