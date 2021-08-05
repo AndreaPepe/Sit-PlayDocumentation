@@ -2431,7 +2431,7 @@
 											"top": 1031,
 											"width": 117.025390625,
 											"height": 13,
-											"text": "Click create button"
+											"text": "Submit data"
 										},
 										{
 											"_type": "LabelView",
@@ -3332,7 +3332,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -240,
-											"top": 96,
+											"top": 112,
 											"height": 13
 										},
 										{
@@ -3342,11 +3342,11 @@
 												"$ref": "AAAAAAF7EFnB1YC2Gzg="
 											},
 											"font": "Arial;13;1",
-											"left": 484,
-											"top": 1343,
-											"width": 119,
+											"left": 477,
+											"top": 1351,
+											"width": 135,
 											"height": 26,
-											"text": "Show popup with error message",
+											"text": "Display popup with error message",
 											"wordWrap": true
 										},
 										{
@@ -3358,7 +3358,7 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -240,
-											"top": 96,
+											"top": 112,
 											"width": 86.6708984375,
 											"height": 13,
 											"text": "(from Activity1)"
@@ -3372,15 +3372,15 @@
 											"visible": false,
 											"font": "Arial;13;0",
 											"left": -240,
-											"top": 96,
+											"top": 112,
 											"horizontalAlignment": 1,
 											"wordWrap": true
 										}
 									],
 									"font": "Arial;13;0",
-									"left": 479,
-									"top": 1336,
-									"width": 129,
+									"left": 472,
+									"top": 1344,
+									"width": 145,
 									"height": 38,
 									"stereotypeLabel": {
 										"$ref": "AAAAAAF7EFnB1YC3dRA="
@@ -3399,9 +3399,9 @@
 							"font": "Arial;13;0",
 							"showShadow": false,
 							"containerChangeable": true,
-							"left": 479,
-							"top": 1336,
-							"width": 129,
+							"left": 472,
+							"top": 1344,
+							"width": 145,
 							"height": 54,
 							"nameCompartment": {
 								"$ref": "AAAAAAF7EFnB1YC2Gzg="
@@ -3489,7 +3489,7 @@
 							"tail": {
 								"$ref": "AAAAAAF7EFhxhoCCK0w="
 							},
-							"points": "402:1224;544:1224;544:1336",
+							"points": "402:1224;544:1224;544:1344",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7EFomq4DU8wE="
@@ -3627,7 +3627,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 557,
-									"top": 1403,
+									"top": 1407,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -3648,7 +3648,7 @@
 									"visible": null,
 									"font": "Arial;13;0",
 									"left": 572,
-									"top": 1403,
+									"top": 1407,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -3669,7 +3669,7 @@
 									"visible": false,
 									"font": "Arial;13;0",
 									"left": 528,
-									"top": 1404,
+									"top": 1408,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -3686,7 +3686,7 @@
 							"tail": {
 								"$ref": "AAAAAAF7EFnB1IC1mCo="
 							},
-							"points": "543:1389;543:1432",
+							"points": "543:1397;543:1432",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAF7EFr5cYEH8aM="
@@ -4294,7 +4294,7 @@
 											"top": 479,
 											"width": 135,
 											"height": 26,
-											"text": "Make HTTP request to Mapbox",
+											"text": "Get predictions for autocomplete",
 											"wordWrap": true
 										},
 										{
@@ -5970,7 +5970,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF7EDlDCnz99Wk="
 					},
-					"name": "Click create button"
+					"name": "Submit data"
 				},
 				{
 					"_type": "UMLDecisionNode",
@@ -6018,7 +6018,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF7EDlDCnz99Wk="
 					},
-					"name": "Show popup with error message"
+					"name": "Display popup with error message"
 				},
 				{
 					"_type": "UMLAction",
@@ -6067,7 +6067,7 @@
 					"_parent": {
 						"$ref": "AAAAAAF7EDlDCnz99Wk="
 					},
-					"name": "Make HTTP request to Mapbox"
+					"name": "Get predictions for autocomplete"
 				},
 				{
 					"_type": "UMLAction",
