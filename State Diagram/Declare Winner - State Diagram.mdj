@@ -1014,11 +1014,11 @@
 								"$ref": "AAAAAAF7EXbouFMJL70="
 							},
 							"font": "Arial;13;0",
-							"left": 616,
-							"top": 88,
-							"width": 265,
+							"left": 576,
+							"top": 64,
+							"width": 337,
 							"height": 51,
-							"text": "click [selectedTournament has changed] / load selected tournament's participants"
+							"text": "click [clickedOnTournament == true && selectedTournament != previousSelectedTournament] / load selected tournament's participants"
 						},
 						{
 							"_type": "UMLTransitionView",
@@ -1120,11 +1120,11 @@
 								"$ref": "AAAAAAF7EXbouFMJL70="
 							},
 							"font": "Arial;13;0",
-							"left": 312,
-							"top": 240,
-							"width": 249,
-							"height": 77,
-							"text": "click [selectedTournament has changed] / load selected tournament's participants, discard selected participant and disable declare winner button"
+							"left": 336,
+							"top": 232,
+							"width": 225,
+							"height": 103,
+							"text": "click [clickedOnTournament == true && selectedTournament != previousSelectedTournament] / load selected tournament's participants, discard selected participant and disable declare winner button"
 						},
 						{
 							"_type": "UMLStateView",
@@ -1385,11 +1385,11 @@
 								"$ref": "AAAAAAF7EXbouFMJL70="
 							},
 							"font": "Arial;13;0",
-							"left": 728,
-							"top": 336,
-							"width": 201,
-							"height": 57,
-							"text": "click [selectedParticipant has changed] / null"
+							"left": 720,
+							"top": 328,
+							"width": 257,
+							"height": 64,
+							"text": "click [clickedOnParticipant == true && selectedParticipant != previousSelectedParticipant] / null"
 						},
 						{
 							"_type": "UMLTransitionView",
